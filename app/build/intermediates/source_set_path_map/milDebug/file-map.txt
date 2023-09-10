@@ -1,0 +1,10 @@
+com.atakmap.android.plugintemplate.plugin.app-debug-0 /Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build-types/debug/res
+com.atakmap.android.plugintemplate.plugin.app-mil-1 /Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build/generated/res/pngs/mil/debug
+com.atakmap.android.plugintemplate.plugin.app-mil-2 /Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build/generated/res/resValues/mil/debug
+com.atakmap.android.plugintemplate.plugin.app-mil-3 /Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build/generated/res/rs/mil/debug
+com.atakmap.android.plugintemplate.plugin.app-mergeMilDebugResources-4 /Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build/intermediates/incremental/milDebug/mergeMilDebugResources/merged.dir
+com.atakmap.android.plugintemplate.plugin.app-mergeMilDebugResources-5 /Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build/intermediates/incremental/milDebug/mergeMilDebugResources/stripped.dir
+com.atakmap.android.plugintemplate.plugin.app-merged_res-6 /Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build/intermediates/merged_res/milDebug
+com.atakmap.android.plugintemplate.plugin.app-main-7 /Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res
+com.atakmap.android.plugintemplate.plugin.app-mil-8 /Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/mil/res
+com.atakmap.android.plugintemplate.plugin.app-milDebug-9 /Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/milDebug/res

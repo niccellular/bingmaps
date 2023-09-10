@@ -1,0 +1,7 @@
+<libraries>
+  <library
+      name="__local_aars__:/Users/user/atak/atak-civ-maintenance-4.8/main.jar:unspecified@jar"
+      jars="/Users/user/atak/atak-civ-maintenance-4.8/main.jar"
+      resolved="__local_aars__:/Users/user/atak/atak-civ-maintenance-4.8/main.jar:unspecified"
+      provided="true"/>
+</libraries>

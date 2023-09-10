@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.atakmap.android.plugintemplate.plugin"
+    android:versionCode="1"
+    android:versionName="1.0 (1) - [4.8.1]" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="false"
+        android:description="@string/app_desc"
+        android:extractNativeLibs="true"
+        android:icon="@drawable/ic_launcher_maps"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="plugin-api"
+            android:value="com.atakmap.app@4.8.1.CIV" />
+        <meta-data
+            android:name="app_desc"
+            android:value="@string/app_desc" />
+
+        <activity android:name="com.atakmap.app.component" >
+            <intent-filter android:label="@string/app_name" >
+                <action android:name="com.atakmap.app.component" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

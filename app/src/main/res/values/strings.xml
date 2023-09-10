@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">BingMaps BirdsEye</string>
+    <!-- description -->
+    <string name="app_desc">This plugin shows BingMaps BirdsEye</string>
+
+    <!-- SharedPreferences Keys -->
+    <string name="key_bingmaps_preferences">plugin_bingmaps_key_bingmaps_preferences</string>
+
+    <!-- Settings / Preferences -->
+    <string name="preferences_title">BingMaps Plugin Preferences</string>
+    <string name="preferences_summary">Allow configuration of BingMaps plugin</string>
+
+    <string name="set_api_key">Set API Key</string>
+    <string name="set_api_key_summary">Configures the BingMaps API Key (required)</string>
+
+    <string name="set_map_size">Set Map Size</string>
+    <string name="set_map_size_summary">Configures the BingMaps Map Size (max 2000,2000)</string>
+
+    <string name="set_pli_radius">Set PLI Radius</string>
+    <string name="set_pli_radius_summary">Configures the max radius from the center point to draw PLI (meters)</string>
+
+    <string name="set_zoom_level">Set Zoom Level</string>
+    <string name="set_zoom_level_summary">Configures the zoom level of the center point (valid 18 through 22)</string>
+
+    <string name="set_use_labels">Use BingMaps labels</string>
+    <string name="set_use_labels_summary">Configures the BingMaps to display labels</string>
+
+    <string name="set_route_self">Display route from Self</string>
+    <string name="set_route_self_summary">Draw a route from Self marker to a PLI named "Finish"</string>
+
+    <string name="set_route_two_points">Display route between two PLI</string>
+    <string name="set_route_two_points_summary">Draw a route from "Start" PLI to "Finish" PLI</string>
+
+    <string name="set_travel_mode">Travel Mode</string>
+    <string name="set_travel_mode_summary">The mode of travel for the route</string>
+
+    <string name="set_optimize_mode">Optimize Mode</string>
+    <string name="set_optimize_mode_summary">Specifies what parameters to use to optimize the route</string>
+
+    <string name="set_avoid">Avoid</string>
+    <string name="set_avoid_summary">Specifies the road types to minimize or avoid when a route is created for the driving travel mode</string>
+
+    <string name="set_distance_units">Distance Units</string>
+    <string name="set_distance_units_summary">The units to use for distance in the response</string>
+</resources>

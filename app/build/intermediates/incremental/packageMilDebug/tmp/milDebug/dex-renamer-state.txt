@@ -1,0 +1,10 @@
+#Sat Sep 09 22:02:12 EDT 2023
+base.0=/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build/intermediates/dex/milDebug/mergeProjectDexMilDebug/0/classes.dex
+base.1=/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build/intermediates/dex/milDebug/mergeProjectDexMilDebug/1/classes.dex
+base.2=/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build/intermediates/dex/milDebug/mergeProjectDexMilDebug/7/classes.dex
+path.0=0/classes.dex
+path.1=1/classes.dex
+path.2=7/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

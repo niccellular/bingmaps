@@ -1,0 +1,9 @@
+-keep class com.atakmap.app.component { <init>(); }
+-keep class com.atakmap.android.gui.PanEditTextPreference { <init>(...); }
+
+-keep class com.atakmap.android.gui.PanListPreference { <init>(...); }
+
+-keep class com.atakmap.android.gui.PanSwitchPreference { <init>(...); }
+
+-keep class com.atakmap.android.gui.PluginSpinner { <init>(android.content.Context, android.util.AttributeSet); }
+

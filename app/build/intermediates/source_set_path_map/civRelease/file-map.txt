@@ -1,0 +1,10 @@
+com.atakmap.android.plugintemplate.plugin.app-release-0 /Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build-types/release/res
+com.atakmap.android.plugintemplate.plugin.app-civ-1 /Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build/generated/res/pngs/civ/release
+com.atakmap.android.plugintemplate.plugin.app-civ-2 /Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build/generated/res/resValues/civ/release
+com.atakmap.android.plugintemplate.plugin.app-civ-3 /Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build/generated/res/rs/civ/release
+com.atakmap.android.plugintemplate.plugin.app-mergeCivReleaseResources-4 /Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build/intermediates/incremental/civRelease/mergeCivReleaseResources/merged.dir
+com.atakmap.android.plugintemplate.plugin.app-mergeCivReleaseResources-5 /Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build/intermediates/incremental/civRelease/mergeCivReleaseResources/stripped.dir
+com.atakmap.android.plugintemplate.plugin.app-merged_res-6 /Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build/intermediates/merged_res/civRelease
+com.atakmap.android.plugintemplate.plugin.app-civ-7 /Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/civ/res
+com.atakmap.android.plugintemplate.plugin.app-civRelease-8 /Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/civRelease/res
+com.atakmap.android.plugintemplate.plugin.app-main-9 /Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res

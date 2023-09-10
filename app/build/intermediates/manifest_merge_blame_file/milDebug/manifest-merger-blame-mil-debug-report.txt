@@ -1,0 +1,54 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.atakmap.android.plugintemplate.plugin"
+4    android:versionCode="1"
+5    android:versionName="1.0 (1) - [4.8.1]" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="21" />
+9-->/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/AndroidManifest.xml:6:5-23:19
+12        android:allowBackup="false"
+12-->/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/AndroidManifest.xml:7:9-36
+13        android:debuggable="true"
+14        android:description="@string/app_desc"
+14-->/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/AndroidManifest.xml:10:9-47
+15        android:extractNativeLibs="true"
+15-->/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/AndroidManifest.xml:11:9-41
+16        android:icon="@drawable/ic_launcher_maps"
+16-->/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/AndroidManifest.xml:8:9-50
+17        android:label="@string/app_name"
+17-->/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/AndroidManifest.xml:9:9-41
+18        android:testOnly="true"
+19        android:theme="@style/AppTheme" >
+19-->/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/AndroidManifest.xml:12:9-40
+20        <meta-data
+21            android:name="plugin-api"
+21-->/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/AndroidManifest.xml:13:20-45
+22            android:value="com.atakmap.app@4.8.1.MIL" />
+22-->/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/AndroidManifest.xml:13:46-79
+23        <meta-data
+23-->/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/AndroidManifest.xml:14:9-78
+24            android:name="app_desc"
+24-->/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/AndroidManifest.xml:14:20-43
+25            android:value="@string/app_desc" />
+25-->/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/AndroidManifest.xml:14:44-76
+26
+27        <activity android:name="com.atakmap.app.component" >
+27-->/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/AndroidManifest.xml:15:15-20:26
+27-->/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/AndroidManifest.xml:15:25-65
+28            <intent-filter android:label="@string/app_name" >
+28-->/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/AndroidManifest.xml:17:19-19:35
+28-->/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/AndroidManifest.xml:17:34-66
+29                <action android:name="com.atakmap.app.component" />
+29-->/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/AndroidManifest.xml:18:21-72
+29-->/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/AndroidManifest.xml:18:29-69
+30            </intent-filter>
+31        </activity>
+32    </application>
+33
+34</manifest>

@@ -1,0 +1,2 @@
+#- File Locator -
+listingFile=../../apk/civ/release/output-metadata.json

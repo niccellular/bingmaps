@@ -1,0 +1,98 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.atakmap.android.plugintemplate.plugin.app-mergeCivReleaseResources-4:/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "5,3,8,12,11,14,15,41,42,44,45,17,18,38,39,20,21,29,30,32,33,35,36,26,27,23,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "152,72,262,467,393,555,607,2034,2078,2223,2285,699,753,1864,1924,852,910,1366,1433,1539,1618,1722,1778,1209,1272,1031,1089",
+                        "endColumns": "72,54,93,86,73,51,90,43,143,61,100,53,97,59,108,57,119,66,104,78,102,55,84,62,92,57,118",
+                        "endOffsets": "220,122,351,549,462,602,693,2073,2217,2280,2381,748,846,1919,2028,905,1025,1428,1533,1613,1716,1773,1858,1267,1360,1084,1203"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "974,1047,1102,1196,1283,1357,1409,1500,1544,1688,1750,1851,1905,2003,2063,2172,2230,2350,2417,2522,2601,2704,2760,2845,2908,3001,3059",
+                        "endColumns": "72,54,93,86,73,51,90,43,143,61,100,53,97,59,108,57,119,66,104,78,102,55,84,62,92,57,118",
+                        "endOffsets": "1042,1097,1191,1278,1352,1404,1495,1539,1683,1745,1846,1900,1998,2058,2167,2225,2345,2412,2517,2596,2699,2755,2840,2903,2996,3054,3173"
+                    }
+                },
+                {
+                    "source": "/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "68,3,64,85,13,45,54,77,97,89",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3163,49,3024,4029,590,2166,2490,3669,4474,4170",
+                        "endLines": "74,10,66,87,38,51,61,81,107,93",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "3559,583,3157,4164,1990,2452,3017,3940,5057,4416"
+                    },
+                    "to": {
+                        "startLines": "56,63,71,74,77,91,94,102,107,118",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3178,3355,3894,4032,4172,4735,4818,5350,5626,6214",
+                        "endLines": "62,70,73,76,90,93,101,106,117,122",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "3350,3889,4027,4167,4730,4813,5345,5621,6209,6460"
+                    }
+                },
+                {
+                    "source": "/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/values/arrays.xml",
+                    "from": {
+                        "startLines": "13,22,7,2",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "443,738,230,55",
+                        "endLines": "21,25,12,6",
+                        "endColumns": "19,19,19,19",
+                        "endOffsets": "733,872,438,225"
+                    },
+                    "to": {
+                        "startLines": "2,11,15,21",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,350,489,702",
+                        "endLines": "10,14,20,25",
+                        "endColumns": "19,19,19,19",
+                        "endOffsets": "345,484,697,843"
+                    }
+                },
+                {
+                    "source": "/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/values/color.xml",
+                    "from": {
+                        "startLines": "5,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "120,80",
+                        "endColumns": "45,39",
+                        "endOffsets": "161,115"
+                    },
+                    "to": {
+                        "startLines": "26,27",
+                        "startColumns": "4,4",
+                        "startOffsets": "848,894",
+                        "endColumns": "45,39",
+                        "endOffsets": "889,929"
+                    }
+                },
+                {
+                    "source": "/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/values/dimen.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "196",
+                        "endColumns": "39",
+                        "endOffsets": "231"
+                    },
+                    "to": {
+                        "startLines": "28",
+                        "startColumns": "4",
+                        "startOffsets": "934",
+                        "endColumns": "39",
+                        "endOffsets": "969"
+                    }
+                }
+            ]
+        }
+    ]
+}

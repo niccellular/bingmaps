@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preferences_title" />
+    <com.atakmap.android.gui.PanEditTextPreference
+        android:key="plugin_bingmaps_key_set_apikey"
+        android:title="@string/set_api_key"
+        android:summary="@string/set_api_key_summary"
+        android:dialogTitle="@string/set_api_key"/>
+    <com.atakmap.android.gui.PanEditTextPreference
+        android:key="plugin_bingmaps_map_size"
+        android:title="@string/set_map_size"
+        android:summary="@string/set_map_size_summary"
+        android:dialogTitle="@string/set_map_size"/>
+    <com.atakmap.android.gui.PanEditTextPreference
+        android:key="plugin_bingmaps_pli_radius"
+        android:title="@string/set_pli_radius"
+        android:summary="@string/set_pli_radius_summary"
+        android:dialogTitle="@string/set_pli_radius"/>
+    <com.atakmap.android.gui.PanEditTextPreference
+        android:key="plugin_bingmaps_zoom_level"
+        android:title="@string/set_zoom_level"
+        android:summary="@string/set_zoom_level_summary"
+        android:dialogTitle="@string/set_zoom_level"/>
+    <com.atakmap.android.gui.PanSwitchPreference
+        android:key="plugin_bingmaps_use_labels"
+        android:title="@string/set_use_labels"
+        android:summary="@string/set_use_labels_summary"
+        android:defaultValue="true" />
+    <com.atakmap.android.gui.PanSwitchPreference
+        android:key="plugin_bingmaps_route_self"
+        android:title="@string/set_route_self"
+        android:summary="@string/set_route_self_summary"
+        android:defaultValue="false" />
+    <com.atakmap.android.gui.PanSwitchPreference
+        android:key="plugin_bingmaps_route_two_points"
+        android:title="@string/set_route_two_points"
+        android:summary="@string/set_route_two_points_summary"
+        android:defaultValue="false" />
+    <com.atakmap.android.gui.PanListPreference
+        android:key="plugin_bingmaps_travel_mode"
+        android:title="@string/set_travel_mode"
+        android:summary="@string/set_travel_mode_summary"
+        android:entryValues="@array/travel_mode"
+        android:entries="@array/travel_mode"
+        android:defaultValue="1" />
+    <com.atakmap.android.gui.PanListPreference
+        android:key="plugin_bingmaps_optimize_mode"
+        android:title="@string/set_optimize_mode"
+        android:summary="@string/set_optimize_mode_summary"
+        android:entryValues="@array/optimize_mode"
+        android:entries="@array/optimize_mode"
+        android:defaultValue="1" />
+    <com.atakmap.android.gui.PanListPreference
+        android:key="plugin_bingmaps_avoid"
+        android:title="@string/set_avoid"
+        android:summary="@string/set_avoid_summary"
+        android:entryValues="@array/avoid"
+        android:entries="@array/avoid"
+        android:defaultValue="1" />
+    <com.atakmap.android.gui.PanListPreference
+        android:key="plugin_bingmaps_distance_units"
+        android:title="@string/set_distance_units"
+        android:summary="@string/set_distance_units_summary"
+        android:entryValues="@array/distance_units"
+        android:entries="@array/distance_units"
+        android:defaultValue="1" />
+</PreferenceScreen>

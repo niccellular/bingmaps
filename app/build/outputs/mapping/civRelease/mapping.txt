@@ -1,0 +1,216 @@
+# compiler: R8
+# compiler_version: 3.2.74
+# min_api: 24
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.0"}
+# pg_map_id: e9641f6
+# pg_map_hash: SHA-256 e9641f6d4722599ea8aec58e1391f5d34f19bba0bcaa2ca5a7f699cf74bde841
+com.atakmap.android.plugintemplate.BingMapsPointMapItem -> atakplugin.PluginTemplate.a:
+    0:65535:void <init>(com.atakmap.coremap.maps.coords.GeoPoint,java.lang.String):9:9 -> <init>
+com.atakmap.android.plugintemplate.BingMapsRouter -> atakplugin.PluginTemplate.b:
+    android.content.Context context -> a
+    java.lang.String TAG -> b
+    1:2:void <init>(android.content.Context):18:19 -> <init>
+    1:1:com.atakmap.android.routes.RoutePlannerOptionsView getOptionsView(android.app.AlertDialog):41:41 -> getOptionsView
+    2:2:com.atakmap.android.routes.RoutePlannerOptionsView getOptionsView(android.app.AlertDialog):43:43 -> getOptionsView
+    0:65535:com.atakmap.android.routes.RouteGenerationTask getRouteGenerationTask(com.atakmap.android.routes.RouteGenerationTask$RouteGenerationEventListener):34:34 -> getRouteGenerationTask
+com.atakmap.android.plugintemplate.BingMapsRoutingTask -> atakplugin.PluginTemplate.c:
+    android.content.Context context -> d
+    java.lang.String TAG -> e
+    1:2:void <init>(com.atakmap.android.routes.RouteGenerationTask$RouteGenerationEventListener,android.content.Context):39:40 -> <init>
+    1:5:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):46:50 -> generateRoute
+    6:8:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):52:54 -> generateRoute
+    9:10:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):61:62 -> generateRoute
+    11:11:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):64:64 -> generateRoute
+    12:12:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):68:68 -> generateRoute
+    13:13:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):70:70 -> generateRoute
+    14:14:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):75:75 -> generateRoute
+    15:15:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):82:82 -> generateRoute
+    16:16:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):84:84 -> generateRoute
+    17:17:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):89:89 -> generateRoute
+    18:19:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):97:98 -> generateRoute
+    20:20:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):100:100 -> generateRoute
+    21:24:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):109:112 -> generateRoute
+    25:25:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):114:114 -> generateRoute
+    26:27:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):117:118 -> generateRoute
+    28:30:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):127:129 -> generateRoute
+    31:32:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):131:132 -> generateRoute
+    33:33:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):136:136 -> generateRoute
+    34:34:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):138:138 -> generateRoute
+    35:35:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):140:140 -> generateRoute
+    36:41:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):142:147 -> generateRoute
+    42:44:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):150:152 -> generateRoute
+    45:46:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):154:155 -> generateRoute
+    47:48:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):158:159 -> generateRoute
+    49:50:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):161:162 -> generateRoute
+    51:51:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):104:104 -> generateRoute
+    52:53:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):91:92 -> generateRoute
+    54:54:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):77:77 -> generateRoute
+    55:55:com.atakmap.android.routes.RoutePointPackage generateRoute(android.content.SharedPreferences,com.atakmap.coremap.maps.coords.GeoPoint,com.atakmap.coremap.maps.coords.GeoPoint,java.util.List):79:79 -> generateRoute
+com.atakmap.android.plugintemplate.PluginPreferencesFragment -> atakplugin.PluginTemplate.f:
+    android.content.Context pluginContext -> e
+    1:1:void <init>():30:30 -> <init>
+    2:3:void <init>(android.content.Context):35:36 -> <init>
+    0:65535:java.lang.String getSubTitle():46:46 -> getSubTitle
+    0:65535:void onCreate(android.os.Bundle):41:41 -> onCreate
+com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver -> atakplugin.PluginTemplate.g:
+    android.content.Context pluginContext -> a
+    com.atakmap.android.maps.MapView mapView -> c
+    java.lang.String SHOW_PLUGIN -> i
+    android.content.Context appContext -> b
+    java.lang.String TAG -> h
+    android.webkit.WebView htmlViewer -> d
+    int currentDir -> f
+    boolean mIsDropDownOpen -> g
+    android.widget.LinearLayout ll_map -> e
+    1:4:void <init>(com.atakmap.android.maps.MapView,android.content.Context):73:76 -> <init>
+    5:5:void <init>(com.atakmap.android.maps.MapView,android.content.Context):78:78 -> <init>
+    6:7:void <init>(com.atakmap.android.maps.MapView,android.content.Context):80:81 -> <init>
+    8:10:void <init>(com.atakmap.android.maps.MapView,android.content.Context):84:86 -> <init>
+    11:11:void <init>(com.atakmap.android.maps.MapView,android.content.Context):88:88 -> <init>
+    12:21:void <init>(com.atakmap.android.maps.MapView,android.content.Context):94:103 -> <init>
+    22:23:void <init>(com.atakmap.android.maps.MapView,android.content.Context):107:108 -> <init>
+    24:24:void <init>(com.atakmap.android.maps.MapView,android.content.Context):110:110 -> <init>
+    25:25:void <init>(com.atakmap.android.maps.MapView,android.content.Context):135:135 -> <init>
+    26:27:void <init>(com.atakmap.android.maps.MapView,android.content.Context):137:138 -> <init>
+    0:65535:int access$100(com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver):55:55 -> a
+    0:65535:int access$102(com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver,int):55:55 -> b
+    0:65535:boolean isDropDownOpen():362:362 -> c
+    1:1:void loadBingMaps(android.content.Context,int):234:234 -> d
+    2:10:void loadBingMaps(android.content.Context,int):236:244 -> d
+    11:13:void loadBingMaps(android.content.Context,int):250:252 -> d
+    14:14:void loadBingMaps(android.content.Context,int):256:256 -> d
+    15:15:void loadBingMaps(android.content.Context,int):259:259 -> d
+    16:17:void loadBingMaps(android.content.Context,int):261:262 -> d
+    18:18:void loadBingMaps(android.content.Context,int):264:264 -> d
+    19:19:void loadBingMaps(android.content.Context,int):266:266 -> d
+    20:20:void loadBingMaps(android.content.Context,int):269:269 -> d
+    21:21:void loadBingMaps(android.content.Context,int):272:272 -> d
+    22:22:void loadBingMaps(android.content.Context,int):275:275 -> d
+    23:23:void loadBingMaps(android.content.Context,int):278:278 -> d
+    24:27:void loadBingMaps(android.content.Context,int):283:286 -> d
+    28:29:void loadBingMaps(android.content.Context,int):288:289 -> d
+    30:30:void loadBingMaps(android.content.Context,int):292:292 -> d
+    31:31:void loadBingMaps(android.content.Context,int):296:296 -> d
+    32:34:void loadBingMaps(android.content.Context,int):299:301 -> d
+    35:35:void loadBingMaps(android.content.Context,int):305:305 -> d
+    36:37:void loadBingMaps(android.content.Context,int):307:308 -> d
+    38:38:void loadBingMaps(android.content.Context,int):315:315 -> d
+    39:40:void loadBingMaps(android.content.Context,int):317:318 -> d
+    41:42:void loadBingMaps(android.content.Context,int):322:323 -> d
+    0:65535:void onDropDownClose():358:358 -> onDropDownClose
+    0:65535:void onDropDownVisible(boolean):349:349 -> onDropDownVisible
+    1:1:void onReceive(android.content.Context,android.content.Intent):328:328 -> onReceive
+    2:3:void onReceive(android.content.Context,android.content.Intent):330:331 -> onReceive
+    4:5:void onReceive(android.content.Context,android.content.Intent):334:335 -> onReceive
+com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver$1 -> atakplugin.PluginTemplate.g$a:
+    android.content.Context val$context -> b
+    com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver this$0 -> c
+    long DownTime -> a
+    long MAX_TOUCH_DURATION -> d
+    0:65535:void <init>(com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver,android.content.Context):110:110 -> <init>
+    1:1:boolean onTouch(android.view.View,android.view.MotionEvent):115:115 -> onTouch
+    2:3:boolean onTouch(android.view.View,android.view.MotionEvent):120:121 -> onTouch
+    4:5:boolean onTouch(android.view.View,android.view.MotionEvent):123:124 -> onTouch
+    6:6:boolean onTouch(android.view.View,android.view.MotionEvent):117:117 -> onTouch
+com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver$ChromeClient -> atakplugin.PluginTemplate.g$b:
+    1:1:void <init>():216:216 -> <init>
+    2:2:void <init>(com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver$1):216:216 -> <init>
+    1:4:boolean onConsoleMessage(android.webkit.ConsoleMessage):219:219 -> onConsoleMessage
+    5:5:boolean onConsoleMessage(android.webkit.ConsoleMessage):222:222 -> onConsoleMessage
+    1:2:void onProgressChanged(android.webkit.WebView,int):227:228 -> onProgressChanged
+com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver$Client -> atakplugin.PluginTemplate.g$c:
+    0:65535:void <init>():141:141 -> <init>
+    1:2:void onPageFinished(android.webkit.WebView,java.lang.String):157:158 -> onPageFinished
+    1:2:void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap):144:145 -> onPageStarted
+    1:2:void onReceivedSslError(android.webkit.WebView,android.webkit.SslErrorHandler,android.net.http.SslError):211:212 -> onReceivedSslError
+    1:2:boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String):150:151 -> shouldOverrideUrlLoading
+com.atakmap.android.plugintemplate.PluginTemplateMapComponent -> atakplugin.PluginTemplate.h:
+    com.atakmap.android.plugintemplate.PluginTemplateWidget widget -> g
+    java.lang.String TAG -> f
+    android.content.Context pluginContext -> b
+    com.atakmap.android.plugintemplate.BingMapsRouter router -> d
+    com.atakmap.android.routes.RouteMapComponent rmc -> e
+    com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver ddr -> c
+    0:65535:void <init>():18:18 -> <init>
+    1:3:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):31:33 -> onCreate
+    4:4:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):35:35 -> onCreate
+    5:8:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):38:41 -> onCreate
+    9:9:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):43:43 -> onCreate
+    10:13:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):45:48 -> onCreate
+    14:14:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):43:43 -> onCreate
+    15:15:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):52:52 -> onCreate
+    16:18:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):54:56 -> onCreate
+    1:2:void onDestroyImpl(android.content.Context,com.atakmap.android.maps.MapView):61:62 -> onDestroyImpl
+com.atakmap.android.plugintemplate.PluginTemplateWidget -> atakplugin.PluginTemplate.i:
+    com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver ddr -> y
+    int ICON_WIDTH -> z
+    java.lang.String TAG -> B
+    int ICON_HEIGHT -> A
+    1:6:void <init>(com.atakmap.android.maps.MapView,com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver):28:33 -> <init>
+    7:7:void <init>(com.atakmap.android.maps.MapView,com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver):35:35 -> <init>
+    1:1:void setIcon(int):62:62 -> d
+    2:7:void setIcon(int):64:69 -> d
+    8:9:void setIcon(int):71:72 -> d
+    0:65535:void updateIcon(int):57:57 -> e
+    1:4:void onMapWidgetClick(com.atakmap.android.widgets.MapWidget,android.view.MotionEvent):78:81 -> onMapWidgetClick
+    5:5:void onMapWidgetClick(com.atakmap.android.widgets.MapWidget,android.view.MotionEvent):83:83 -> onMapWidgetClick
+com.atakmap.android.plugintemplate.plugin.BuildConfig -> atakplugin.PluginTemplate.d:
+    java.lang.String VERSION_NAME -> f
+    int VERSION_CODE -> e
+    boolean DEBUG -> a
+    java.lang.String BUILD_TYPE -> c
+    java.lang.String APPLICATION_ID -> b
+    java.lang.String FLAVOR -> d
+    0:65535:void <init>():6:6 -> <init>
+com.atakmap.android.plugintemplate.plugin.PluginNativeLoader -> atakplugin.PluginTemplate.e:
+    java.lang.String TAG -> a
+    java.lang.String ndl -> b
+    0:65535:void <init>():10:10 -> <init>
+    1:1:void init(android.content.Context):22:22 -> a
+    2:3:void init(android.content.Context):24:25 -> a
+    4:4:void init(android.content.Context):28:28 -> a
+    5:5:void init(android.content.Context):33:33 -> a
+    1:5:void loadLibrary(java.lang.String):43:47 -> b
+    6:6:void loadLibrary(java.lang.String):50:50 -> b
+com.atakmap.android.plugintemplate.plugin.PluginTemplateLifecycle -> com.atakmap.android.plugintemplate.plugin.PluginTemplateLifecycle:
+    android.content.Context pluginContext -> a
+    android.app.Activity activity -> d
+    com.atakmap.android.maps.MapView mapView -> c
+    java.util.Collection overlays -> b
+    java.lang.String TAG -> e
+    1:5:void <init>(android.content.Context):30:34 -> <init>
+    1:2:void onConfigurationChanged(android.content.res.Configuration):39:40 -> onConfigurationChanged
+    1:2:void onCreate(android.app.Activity,transapps.mapi.MapView):46:47 -> onCreate
+    3:5:void onCreate(android.app.Activity,transapps.mapi.MapView):51:53 -> onCreate
+    6:7:void onCreate(android.app.Activity,transapps.mapi.MapView):56:57 -> onCreate
+    8:9:void onCreate(android.app.Activity,transapps.mapi.MapView):59:60 -> onCreate
+    10:12:void onCreate(android.app.Activity,transapps.mapi.MapView):62:62 -> onCreate
+    13:13:void onCreate(android.app.Activity,transapps.mapi.MapView):66:66 -> onCreate
+    14:14:void onCreate(android.app.Activity,transapps.mapi.MapView):69:69 -> onCreate
+    15:15:void onCreate(android.app.Activity,transapps.mapi.MapView):48:48 -> onCreate
+    1:2:void onDestroy():76:77 -> onDestroy
+    1:2:void onPause():87:88 -> onPause
+    1:2:void onResume():93:94 -> onResume
+    1:2:void onStart():99:100 -> onStart
+    1:2:void onStop():105:106 -> onStop
+com.atakmap.android.plugintemplate.plugin.PluginTemplateTool -> com.atakmap.android.plugintemplate.plugin.PluginTemplateTool:
+    android.content.Context context -> a
+    1:2:void <init>(android.content.Context):22:23 -> <init>
+    0:65535:java.lang.String getDescription():28:28 -> getDescription
+    0:65535:transapps.maps.plugin.tool.Group[] getGroups():39:39 -> getGroups
+    1:2:android.graphics.drawable.Drawable getIcon():33:34 -> getIcon
+    0:65535:java.lang.String getShortDescription():46:46 -> getShortDescription
+    1:1:void onActivate(android.app.Activity,transapps.mapi.MapView,android.view.ViewGroup,android.os.Bundle,transapps.maps.plugin.tool.Tool$ToolCallback):62:62 -> onActivate
+    2:2:void onActivate(android.app.Activity,transapps.mapi.MapView,android.view.ViewGroup,android.os.Bundle,transapps.maps.plugin.tool.Tool$ToolCallback):67:67 -> onActivate
+    3:3:void onActivate(android.app.Activity,transapps.mapi.MapView,android.view.ViewGroup,android.os.Bundle,transapps.maps.plugin.tool.Tool$ToolCallback):69:69 -> onActivate
+com.atakmap.android.plugintemplate.plugin.R -> com.atakmap.android.plugintemplate.plugin.a:
+com.atakmap.android.plugintemplate.plugin.R$array -> com.atakmap.android.plugintemplate.plugin.a$a:
+com.atakmap.android.plugintemplate.plugin.R$color -> com.atakmap.android.plugintemplate.plugin.a$b:
+com.atakmap.android.plugintemplate.plugin.R$dimen -> com.atakmap.android.plugintemplate.plugin.a$c:
+com.atakmap.android.plugintemplate.plugin.R$drawable -> com.atakmap.android.plugintemplate.plugin.a$d:
+com.atakmap.android.plugintemplate.plugin.R$id -> com.atakmap.android.plugintemplate.plugin.a$e:
+com.atakmap.android.plugintemplate.plugin.R$layout -> com.atakmap.android.plugintemplate.plugin.a$f:
+com.atakmap.android.plugintemplate.plugin.R$string -> com.atakmap.android.plugintemplate.plugin.a$g:
+com.atakmap.android.plugintemplate.plugin.R$style -> com.atakmap.android.plugintemplate.plugin.a$h:
+com.atakmap.android.plugintemplate.plugin.R$xml -> com.atakmap.android.plugintemplate.plugin.a$i:

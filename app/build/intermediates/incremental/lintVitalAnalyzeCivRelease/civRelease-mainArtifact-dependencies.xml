@@ -1,0 +1,8 @@
+<dependencies>
+  <compile
+      roots="__local_aars__:/Users/user/atak/atak-civ-maintenance-4.8/main.jar:unspecified@jar">
+    <dependency
+        name="__local_aars__:/Users/user/atak/atak-civ-maintenance-4.8/main.jar:unspecified@jar"
+        simpleName="__local_aars__:/Users/user/atak/atak-civ-maintenance-4.8/main.jar"/>
+  </compile>
+</dependencies>

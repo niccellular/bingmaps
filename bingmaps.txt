@@ -1,0 +1,16 @@
+# BirdsEye
+https://dev.virtualearth.net/REST/V1/Imagery/Map/BirdseyeWithLabels/37.802297,-122.405844/19/Routes?wp.1=37.802297,-122.405844;1;Start&wp.2=37.801297,-122.405544;7;Middel&wp.3=37.804197,-122.404044;7;End&travelMode=walking&optmz=distance&dir=270&ms=2000,2000&fmt=png&key=AgsWlaZMIp0FYuEWAsFrB6ywYf6NoXxzwCqDOzSP4GRR7h8tWSWe4dwCfElivrwD
+
+
+https://dev.virtualearth.net/REST/V1/Routes/Map/BirdseyeWithLabels/37.802297,-122.405844/19/Routes?wp.1=37.802297,-122.405844;1;Start&wp.2=37.801297,-122.405544;7;Middel&wp.3=37.804197,-122.404044;7;End&travelMode=walking&optmz=distance&fmt=png&key=AgsWlaZMIp0FYuEWAsFrB6ywYf6NoXxzwCqDOzSP4GRR7h8tWSWe4dwCfElivrwD&o=xml
+
+
+# Routes
+https://dev.virtualearth.net/REST/V1/Routes/Map/Roads/Routes?wp.1=37.802297,-122.405844;1;Start&wp.2=37.801297,-122.405544;7;Middel&wp.3=37.804197,-122.404044;7;End&travelMode=walking&optmz=distance&key=AgsWlaZMIp0FYuEWAsFrB6ywYf6NoXxzwCqDOzSP4GRR7h8tWSWe4dwCfElivrwD
+
+
+String.format("https://dev.virtualearth.net/REST/V1/Imagery/Map/%s/%f,%f/%s/Routes?wp.1=%f,%f;1;Start&wp.2=%f,%f;7;Finish&travelMode=walking&optmz=distance&dir=%d&ms=%s&%skey=%s", useLabels ? "BirdseyeWithLabels" : "Birdseye", lat, lng, zoom, startPLI.getPoint().getLatitude(), startPLI.getPoint().getLongitude(), finishPLI.getPoint().getLatitude(), finishPLI.getPoint().getLongitude(), dir, mapSize, pp.toString(), key);
+
+
+
+https://globe.adsbexchange.com/?lat=28.055956&lon=-80.550640&hideSidebar&zoom=200

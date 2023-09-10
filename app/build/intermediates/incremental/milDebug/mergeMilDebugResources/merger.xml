@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res"/><source path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build/generated/res/rs/mil/debug"/><source path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build/generated/res/resValues/mil/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res"><file name="new_dark_button_bg" path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/drawable/new_dark_button_bg.xml" qualifiers="" type="drawable"/><file name="west32" path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/drawable/west32.png" qualifiers="" type="drawable"/><file name="new_dark_button_disabled" path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/drawable/new_dark_button_disabled.xml" qualifiers="" type="drawable"/><file name="btn_gray" path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/drawable/btn_gray.xml" qualifiers="" type="drawable"/><file name="ic_launcher_maps" path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/drawable/ic_launcher_maps.png" qualifiers="" type="drawable"/><file name="new_dark_button_selected" path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/drawable/new_dark_button_selected.xml" qualifiers="" type="drawable"/><file name="north32" path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/drawable/north32.png" qualifiers="" type="drawable"/><file name="east32" path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/drawable/east32.png" qualifiers="" type="drawable"/><file name="south32" path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/drawable/south32.png" qualifiers="" type="drawable"/><file name="main_layout" path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/layout/main_layout.xml" qualifiers="" type="layout"/><file name="bingmaps_planner_option" path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/layout/bingmaps_planner_option.xml" qualifiers="" type="layout"/><file path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/values/arrays.xml" qualifiers=""><string-array name="travel_mode" translatable="false">
+        <item>Walking</item>
+        <item>Driving</item>
+        
+    </string-array><string-array name="optimize_mode" translatable="false">
+        <item>Distance</item>
+        <item>Time </item>
+        <item>TimeWithTraffic</item>
+        <item>TimeAvoidClosure</item>
+    </string-array><string-array name="avoid" translatable="false">
+        <item>Nothing</item>
+        <item>Highways</item>
+        <item>Tolls</item>
+        <item>Ferry</item>
+        <item>MinimizeHighways</item>
+        <item>MinimizeTolls</item>
+        <item>BorderCrossing</item>
+    </string-array><string-array name="distance_units" translatable="false">
+        <item>Kilometer</item>
+        <item>Mile</item>
+    </string-array></file><file path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/values/styles.xml" qualifiers=""><style name="ATAKPluginTheme" parent="@android:style/Theme.Holo">
+        <item name="android:buttonStyle">@android:style/Widget.Button</item>
+        <item name="android:imageButtonStyle">@android:style/Widget.Button</item>
+        <item name="android:buttonStyleToggle">@android:style/Widget.Button</item>
+        <item name="android:spinnerStyle">@style/ATAKSpinner</item>
+        <item name="android:spinnerItemStyle">@style/ATAKSpinnerItem</item>
+        <item name="android:editTextStyle">@style/ATAKEditText</item>
+    </style><style name="ATAKTheme" parent="@android:style/Theme.Holo">
+
+        
+        <item name="android:buttonStyle">@android:style/Widget.Button</item>
+        <item name="android:imageButtonStyle">@android:style/Widget.Button</item>
+        <item name="android:buttonStyleToggle">@android:style/Widget.Button</item>
+        <item name="android:spinnerStyle">@style/ATAKSpinner</item>
+        <item name="android:spinnerItemStyle">@style/ATAKSpinnerItem</item>
+
+        <item name="android:editTextStyle">@style/ATAKEditText</item>
+
+        
+        
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        
+    </style><style name="AppTheme" parent="@android:style/Theme.Holo">
+        <item name="android:buttonStyle">@android:style/Widget.Button</item>
+        <item name="android:imageButtonStyle">@android:style/Widget.Button</item>
+        <item name="android:buttonStyleToggle">@android:style/Widget.Button</item>
+        <item name="android:spinnerStyle">@style/ATAKSpinner</item>
+        <item name="android:spinnerItemStyle">@style/ATAKSpinnerItem</item>
+        <item name="android:editTextStyle">@style/ATAKEditText</item>
+    </style><style name="ATAKSpinner" parent="@android:style/Widget.Spinner">
+        <item name="android:spinnerMode">dialog</item>
+    </style><style name="ATAKEditText" parent="@android:style/Widget.EditText">
+        
+        
+
+        
+        <item name="android:imeOptions">flagNoFullscreen</item>
+    </style><style name="FullDropdownStyle" parent="@style/ATAKTheme">
+        <item name="android:buttonStyle">@style/unpaddedButton</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:imeOptions">flagNoExtractUi</item>
+    </style><style name="ATAKSpinnerItem" parent="@style/AppTheme">
+        <item name="android:textColor">@android:color/black</item>
+    </style><style name="unpaddedButton" parent="@android:style/Widget.Button">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:textSize">@dimen/fontSize</item>
+    </style><style name="darkButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/btn_gray</item>
+        <item name="android:shadowColor">@color/darker_gray</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:textSize">@dimen/fontSize</item>
+    </style></file><file path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">BingMaps BirdsEye</string><string name="app_desc">This plugin shows BingMaps BirdsEye</string><string name="key_bingmaps_preferences">plugin_bingmaps_key_bingmaps_preferences</string><string name="preferences_title">BingMaps Plugin Preferences</string><string name="preferences_summary">Allow configuration of BingMaps plugin</string><string name="set_api_key">Set API Key</string><string name="set_api_key_summary">Configures the BingMaps API Key (required)</string><string name="set_map_size">Set Map Size</string><string name="set_map_size_summary">Configures the BingMaps Map Size (max 2000,2000)</string><string name="set_pli_radius">Set PLI Radius</string><string name="set_pli_radius_summary">Configures the max radius from the center point to draw PLI (meters)</string><string name="set_zoom_level">Set Zoom Level</string><string name="set_zoom_level_summary">Configures the zoom level of the center point (valid 18 through 22)</string><string name="set_use_labels">Use BingMaps labels</string><string name="set_use_labels_summary">Configures the BingMaps to display labels</string><string name="set_route_self">Display route from Self</string><string name="set_route_self_summary">Draw a route from Self marker to a PLI named "Finish"</string><string name="set_route_two_points">Display route between two PLI</string><string name="set_route_two_points_summary">Draw a route from "Start" PLI to "Finish" PLI</string><string name="set_travel_mode">Travel Mode</string><string name="set_travel_mode_summary">The mode of travel for the route</string><string name="set_optimize_mode">Optimize Mode</string><string name="set_optimize_mode_summary">Specifies what parameters to use to optimize the route</string><string name="set_avoid">Avoid</string><string name="set_avoid_summary">Specifies the road types to minimize or avoid when a route is created for the driving travel mode</string><string name="set_distance_units">Distance Units</string><string name="set_distance_units_summary">The units to use for distance in the response</string></file><file path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/values/color.xml" qualifiers=""><color name="white">#ffffff</color><color name="darker_gray">#121212</color></file><file path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/values/dimen.xml" qualifiers=""><dimen name="fontSize">14sp</dimen></file><file name="preferences" path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/main/res/xml/preferences.xml" qualifiers="" type="xml"/></source><source path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build/generated/res/rs/mil/debug"/><source path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build/generated/res/resValues/mil/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="mil$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/mil/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="mil" generated-set="mil$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/mil/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build-types/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/build-types/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="milDebug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/milDebug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="milDebug" generated-set="milDebug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/user/atak/atak-civ-maintenance-4.8/plugins/bingmaps/app/src/milDebug/res"/></dataSet><mergedItems/></merger>
