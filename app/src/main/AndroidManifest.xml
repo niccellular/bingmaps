@@ -13,7 +13,8 @@
         <meta-data android:name="plugin-api" android:value="${atakApiVersion}"/>
         <meta-data android:name="app_desc" android:value="@string/app_desc"/>
               <activity android:name="com.atakmap.app.component" 
-                  tools:ignore="MissingClass">  
+                  tools:ignore="MissingClass"
+		  android:exported="true">  
                   <intent-filter android:label="@string/app_name"> 
                     <action android:name="com.atakmap.app.component" />  
                   </intent-filter> 
