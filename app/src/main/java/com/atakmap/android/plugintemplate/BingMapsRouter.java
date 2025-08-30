@@ -5,11 +5,11 @@ import android.content.Context;
 import android.view.LayoutInflater;
 
 import com.atakmap.android.routes.RouteGenerationTask;
-import com.atakmap.android.routes.RoutePlannerInterface;
+import com.atakmap.android.routes.RoutePlannerInterface2;
 import com.atakmap.android.routes.RoutePlannerOptionsView;
 import com.atakmap.android.plugintemplate.plugin.R;
 
-public class BingMapsRouter implements RoutePlannerInterface {
+public class BingMapsRouter implements RoutePlannerInterface2 {
 
     public final static String TAG = "BingMapsRouter";
     public final Context context;
@@ -22,6 +22,11 @@ public class BingMapsRouter implements RoutePlannerInterface {
     @Override
     public String getDescriptiveName() {
         return "BingMaps Online Router";
+    }
+
+    @Override
+    public String getUniqueIdenfier() {
+        return "bingmaps";
     }
 
     @Override

@@ -15,7 +15,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.atakmap.android.gui.PanEditTextPreference;
-import com.atakmap.android.plugintemplate.plugin.PluginTemplateLifecycle;
 import com.atakmap.android.plugintemplate.plugin.R;
 
 import com.atakmap.android.preference.PluginPreferenceFragment;
