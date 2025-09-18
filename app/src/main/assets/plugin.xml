@@ -3,13 +3,10 @@
 <plugin>
 
     <extension
-        type="transapps.maps.plugin.lifecycle.Lifecycle"
-        impl="com.atakmap.android.plugintemplate.plugin.PluginTemplateLifecycle"
+        type="gov.tak.api.plugin.IPlugin"
+        impl="com.atakmap.android.plugintemplate.PluginTemplateMapComponent"
         singleton="true" />
 
-    <extension
-        type="transapps.maps.plugin.tool.ToolDescriptor"
-        impl="com.atakmap.android.plugintemplate.plugin.PluginTemplateTool"
-        singleton="true" />
 
 </plugin>
+

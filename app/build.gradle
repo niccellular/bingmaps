@@ -82,7 +82,6 @@ allprojects {
 
 apply plugin: 'com.android.application'
 apply plugin: 'atak-takdev-plugin'
-apply from: "../gradle/typst.gradle"
 
 
 // The supportedFlavors list is an example configuration.  FMS variants can be added and defined via an 
